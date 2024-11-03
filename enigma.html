@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>enigma</title>
+</head>
+
+<body>
+    <h1>Tenho um enigma pra você 😈</h1>
+    <p>Resolva a seguinte palavra em cifra de césar "frkb" e então coloque abaixo</p>
+    <form id="myForm">
+        <label for="password">Senha:</label>
+        <input type="text" id="password" name="password">
+        <button type="button" onclick="checkPassword()">Enviar</button>
+    </form>
+
+    <script>
+        function checkPassword() {
+            var password = document.getElementById("password").value;
+
+            // Aqui você deve verificar se a senha está correta
+            // Se a senha estiver correta, redirecione para o outro site
+            if (password === "sexo") {
+                window.location.href = "não_lembro.html";
+            } else {
+                alert("Senha incorreta");
+            }
+        }
+    </script>
+</body>
+
+</html>
